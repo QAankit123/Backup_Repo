@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52" started-at="2018-09-16T11:14:23Z" finished-at="2018-09-16T11:14:23Z">
+  <suite name="Default suite" duration-ms="63" started-at="2018-12-09T16:49:59Z" finished-at="2018-12-09T16:49:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52" started-at="2018-09-16T11:14:23Z" finished-at="2018-09-16T11:14:23Z">
+    <test name="Default test" duration-ms="63" started-at="2018-12-09T16:49:59Z" finished-at="2018-12-09T16:49:59Z">
       <class name="AssertionConcepts.SoftAssertion">
-        <test-method status="PASS" signature="Verify()[pri:0, instance:AssertionConcepts.SoftAssertion@4501b7af]" name="Verify" duration-ms="25" started-at="2018-09-16T11:14:23Z" finished-at="2018-09-16T11:14:23Z">
+        <test-method status="PASS" signature="Verify()[pri:0, instance:AssertionConcepts.SoftAssertion@ae45eb6]" name="Verify" duration-ms="24" started-at="2018-12-09T16:49:59Z" finished-at="2018-12-09T16:49:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify -->
