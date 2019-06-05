@@ -16,8 +16,7 @@ public class GetAllElementOFPage {
 	    System.out.println(list.size());
         for(WebElement e: list ){
         	
-        	
-        if(e.isDisplayed()==true)	
+        System.out.println("done");	 
         {
         	System.out.println(e.getTagName()+ "   "+e.getText());
         }
