@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="TestCrossB(failed)">
-    <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="CrossBrowserTest.CrossTestingBrowser">
+      <class name="TestNGLearning.TestCaseExecution">
         <methods>
-          <include name="Verifytitle" invocation-numbers="0"/>
+          <include name="GetData"/>
         </methods>
-      </class> <!-- CrossBrowserTest.CrossTestingBrowser -->
+      </class> <!-- TestNGLearning.TestCaseExecution -->
     </classes>
-  </test> <!-- TestCrossB(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

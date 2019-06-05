@@ -18,30 +18,23 @@ public class ExpliciateWait {
 		
 		driver.get("http://seleniumpractise.blogspot.com/");
 		
-		
-		//WebElement element =driver.findElementByLinkText("Postman Button");
-		
-		
 		WebDriverWait wait = new WebDriverWait(driver,5);
-		
-		
-		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Postman Button")));
-		
-		
-		  boolean status=element.isDisplayed();
-		  
-		  
-		  
-		  if (status){
-			  
-			  System.out.println("Element found");
+		WebElement element= wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Test Link")));
+		 
+		 Boolean status=element.isDisplayed();
+		 if(status){
 			 
-		  }
-		  else{
-			  
-			  System.out.println("Element not found");
-		  }
+			 System.out.println("Element found");
+			 
+		 }
+		 else{
+			 System.out.println("Element not found");
+		 }
+		
+		
+		
+		
+		
 		
 	}
-
 }

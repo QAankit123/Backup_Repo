@@ -25,7 +25,7 @@ public class CalanderHandeling {
 		
 		driver.findElementByXPath("//input[@type='submit']").submit();
 		
-        driver.switchTo().frame("mainpanel");
+        driver.switchTo().frame("mainpanel"); 
 		
 		String mydate = "11-November-2019";
 		

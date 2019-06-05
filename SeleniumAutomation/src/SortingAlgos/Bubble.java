@@ -4,7 +4,7 @@ public class Bubble {
 
 	public static void main(String[] args) {
 		
-		int arr[]= {5,7,1,4,9,0,4,33,7};
+		int arr[]= {5,7,1,4,0,4,33,7};
 		int temp =0;
 		for(int i =0;i<arr.length;i++)
 		{
@@ -14,22 +14,12 @@ public class Bubble {
 					           
 					temp=arr[j];
 				    arr[j]=arr[j+1];
-				    arr[j+1]=temp;
-					
-					
+				    arr[j+1]=temp;				
 				}
-				
-				
-				
-			}
-			
-			
-			
+			}	
 		}
-		
-
 		for(int j: arr){
-			System.out.print(j);
+			System.out.print("  "+j);
 		}
 
 	}

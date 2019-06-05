@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AssertionConcepts.HardAssertion">
+      <class name="GeneralTopics.BrowserResize">
         <methods>
-          <include name="Verifytitle"/>
+          <include name="Custamization"/>
         </methods>
-      </class> <!-- AssertionConcepts.HardAssertion -->
+      </class> <!-- GeneralTopics.BrowserResize -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

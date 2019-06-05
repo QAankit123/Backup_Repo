@@ -10,9 +10,10 @@ public class A {
 	    ChromeDriver driver =  new ChromeDriver();
 	    driver.get("https://www.facebook.com/");
 	    Thread.sleep(2000);
-	    driver.findElementByXPath("xpath=(//input[@class='inputtext'])[2]").sendKeys("1233");
+	    //driver.findElementByXPath("xpath=(//input[@class='inputtext'])[2]").sendKeys("1233");
+	    String s =driver.findElementByXPath("//div[text()='Create a new account']").getText();
 	    	
-		
+		System.out.println(s);
 
 	}
 

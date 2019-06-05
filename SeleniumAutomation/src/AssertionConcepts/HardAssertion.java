@@ -14,15 +14,17 @@ public class HardAssertion {
 		
 		ChromeDriver driver= new ChromeDriver();
 		
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.google.com");
 		
 		String Actual_title= driver.getTitle();
 	    
 	    System.out.println(Actual_title);
 	    
-	    String Expected_title="Facebook – log in or sign utp";
+	    String Expected_title="Google";
 	    
-	    Assert.assertEquals(Actual_title, Expected_title );
+	    Assert.assertEquals(Actual_title, Expected_title, "titles are not same please check again" );
+	    
+	    
 	
 	    if (Actual_title.equalsIgnoreCase(Expected_title))
 	    {

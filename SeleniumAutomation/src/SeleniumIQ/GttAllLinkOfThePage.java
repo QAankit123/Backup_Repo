@@ -16,12 +16,14 @@ public class GttAllLinkOfThePage {
 	      
 	     System.out.println(linklist.size());
 	     
-	     for(int i = 0;i<linklist.size();i++)
-	     {
-	     
-	    String s =	linklist.get(i).getText();
+	   
+	     for(WebElement e : linklist){
 	    	 
-	    	 System.out.println(s);
+	    	 
+	    	    String s=e.getText();
+	    	    System.out.println(s);
+	    	 
+	    	 
 	     }
 	}
 

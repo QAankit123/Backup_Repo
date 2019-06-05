@@ -27,9 +27,9 @@ public class TestAgainCrossBrowser {
 		 driver= new ChromeDriver();
 		}
 		
-		driver.get("https://www.facebook.com");
 		
-		System.out.println("multiple browser");
+		
+		
 		
 	}
 	
